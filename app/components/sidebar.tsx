@@ -155,10 +155,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT From OpenAI
+          ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Powered by Angwz.
+          Powered by OpenAI & Angwz.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
